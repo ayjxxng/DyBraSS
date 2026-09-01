@@ -1,0 +1,4 @@
+# @package _global_
+defaults:
+  - override /dataset: abide
+  - _self_

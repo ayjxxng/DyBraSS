@@ -1,0 +1,11 @@
+# @package _global_
+defaults:
+  - override /dataset: adhd
+  - _self_
+
+model:
+  input_hid: 256
+  dropout_prob: 0.3
+
+optimizer:
+  weight_decay: 0.001

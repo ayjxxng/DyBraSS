@@ -1,0 +1,6 @@
+train_epochs: 100
+batch_size: 8
+patience: 35
+num_workers: 0
+mixup: true
+mixup_alpha: 1.0

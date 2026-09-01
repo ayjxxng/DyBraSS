@@ -1,0 +1,6 @@
+name: COBRE
+key: cobre
+data_path: ???
+split_path: ???
+n_channels: 114
+num_classes: 2

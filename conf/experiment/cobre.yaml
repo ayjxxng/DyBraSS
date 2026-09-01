@@ -1,0 +1,11 @@
+# @package _global_
+defaults:
+  - override /dataset: cobre
+  - _self_
+
+model:
+  input_hid: 128
+  conv_hid: 4
+
+optimizer:
+  weight_decay: 0.001

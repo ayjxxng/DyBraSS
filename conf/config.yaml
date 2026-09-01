@@ -1,0 +1,20 @@
+defaults:
+  - _self_
+  - dataset: abide
+  - model: dybrass
+  - optimizer: adam
+  - scheduler: basic
+  - training: basic
+  - experiment: abide
+
+output_dir: outputs
+seed: 42
+device: null
+save: true
+
+hydra:
+  run:
+    dir: ${output_dir}/hydra/${now:%Y-%m-%d_%H-%M-%S}
+  output_subdir: null
+  job:
+    chdir: false
